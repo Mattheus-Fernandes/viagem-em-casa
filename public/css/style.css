@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(61, 61, 61);
+    padding: 20px;
+
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+
+.header .navbar-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 0;
+}
+.header .navbar-header ul li {
+    list-style: none;
+}
+
+.header .navbar-header ul li a {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 25px;
+    cursor: pointer;
+}
