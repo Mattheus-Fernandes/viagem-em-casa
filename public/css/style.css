@@ -73,3 +73,53 @@
     font-size: 19px;
     
 }
+
+.content {
+    display: flex;
+}
+
+.content-left {
+    background: #dadae3;
+    height: auto;
+    width: 65%;
+    padding: 15px 40px;
+}
+
+.content-left ul li {
+    list-style: none;
+}
+
+.content-right {
+    height: auto;
+    width: 35%;
+    background-image: url(../images/wp5614193.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    background-color: #000000b3;
+}
+
+.slides-image {
+    position: absolute;
+    top: 113px;
+    right: 78px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 4px rgb(51, 50, 50);
+}
+
+.texts {
+    width: 82%;
+}
+
+.width-image-slide {
+    width: 581px;
+    height: 378px;
+    object-fit: cover;
+    border-radius: 6px;
+}
