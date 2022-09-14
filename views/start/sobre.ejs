@@ -1,0 +1,112 @@
+<%- include("../partials/head.ejs") %> 
+<%- include("../partials/header.ejs") %> 
+<body>
+    <div class="content">
+        <div class="content-left">
+            <h1>O que eh viagem em casa?</h1>
+            <div class="texts">
+                <p>Bom, deixa eu ver por onde começar meus caros...</p>
+                <p>Viagem em Casa, eh um projeto em que foi desenvolvido para você que deseja conhecer novos lugares que não eh muito badalado, tais quais:
+                </p>
+
+                <ul>
+                    <li>Ibiza - Espanha</li>
+                    <li>Berlim - Alemanha</li>
+                    <li>Nova York - Estados Unidos</li>
+                    <li>São Paulo - Brasil</li>
+                    <li>Londres - Inglaterra</li>
+                    <li>Montreal - Canada</li>
+                    <li>Las Vegas - Estados Unidos</li>
+                </ul>
+
+                <p>Entre outros lugares...</p>
+
+                <h5>Que por sinal, esse mundo eh imenso!</h5>
+
+                <p>Aqui você encontrara novos lugares que são bonitos quanto aos lugares que já conhecemos, porem possuem uma baixa visita ou ate mesmo nao existe turismo na localidade por nao ser conhecido.
+                </p>
+
+                <p>A nossa missão eh fazer com que você tenha o conhecimento desses lugares incríveis e o que eles podem te proporcionar.</p>    
+            </div>
+
+            <p>Iremos te entregar tudo facilmente, pois na nossa listagem fizemos uma procura pelo os 5 continentes.
+            </p>    
+                
+            <p>Você ira encontrar as comidas típicas,  o idioma, conversão da moeda do pais e entre outras coisas...</p>
+
+            
+        </div>
+        <div class="content-right">
+            <div class="overlay"></div>
+            <div class="slides-image">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/images/berlim.jpg" class="width-image-slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-white bg-dark">Berlim - Alemanha</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/images/ibiza.jpg" class="width-image-slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-white">Ibiza - Espanha</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/lasvegas.jpg" class="width-image-slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-white">Las Vegas - Estados Unidos</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/londres.jpg" class="width-image-slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-white">Londres - Inglaterra</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/montreal.jpg" class="width-image-slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-white">Montreal - Canada</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/new-york.jpg" class="width-image-slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-white">Nova York - Estados Unidos</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/sao-paulo.jpg" class="width-image-slide" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="text-white">Sao Paulo - Brasil</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>
