@@ -123,3 +123,54 @@
     object-fit: cover;
     border-radius: 6px;
 }
+
+
+.continentes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 292px 292px;
+
+    grid-template-areas: 
+    "Am Eu Afri"
+    "Asi Oce Antar"
+    ;
+
+    grid-gap: 5px;
+}
+
+
+.america {
+    grid-area: Am;
+    background-color: red;
+}
+
+.europa {
+    grid-area: Eu;
+    background-color: blue;
+}
+
+.africa {
+    grid-area: Afri;
+    background-color: yellow;
+}
+
+.asia {
+    grid-area: Asi;
+    background-color: orange;
+}
+
+.oceania {
+    grid-area: Oce;
+}
+
+.antartida{
+    grid-area: Antar;
+    background-color: green;
+}
+
+.todosContinentesStyles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
