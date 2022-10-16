@@ -3,17 +3,14 @@
 <body>
     <div class="body-background">
         <div class="container">
-            <form action="" class="form">
-                <select name="" class="select">
+            <form action="/continente/lugares" method="get" class="form">
+                <select name="continente" class="select">
                     <option value="" disabled selected>--Selecione um continente--</option>
-                    <option value="">América</option>
-                    <option value="">Europa</option>
-                    <option value="">África</option>
-                    <option value="">Ásia</option>
-                    <option value="">Oceania</option>
-                    <option value="">Antártida</option>
+                    <% continentes.forEach(continente => { %>
+                            <option><%= continente.title %> </option>
+                    <% }) %>
                 </select>
-                <button type="submit" class="button">Pesquisar</button>
+                    <button type="submit" class="button">Pesquisar</button>
             </form>
         </div>
     </div>

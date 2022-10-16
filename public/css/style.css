@@ -141,36 +141,54 @@
 
 .america {
     grid-area: Am;
-    background-color: red;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Americas_%28orthographic_projection%29.svg/250px-Americas_%28orthographic_projection%29.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .europa {
     grid-area: Eu;
-    background-color: blue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Europe_%28orthographic_projection%29.svg/250px-Europe_%28orthographic_projection%29.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .africa {
     grid-area: Afri;
-    background-color: yellow;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Africa_%28orthographic_projection%29.svg/250px-Africa_%28orthographic_projection%29.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .asia {
     grid-area: Asi;
-    background-color: orange;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Asia_%28orthographic_projection%29.svg/250px-Asia_%28orthographic_projection%29.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .oceania {
     grid-area: Oce;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Oceania_%28orthographic_projection%29.svg/250px-Oceania_%28orthographic_projection%29.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .antartida{
     grid-area: Antar;
-    background-color: green;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Antarctica_%28orthographic_projection%29.svg/250px-Antarctica_%28orthographic_projection%29.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .todosContinentesStyles {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     cursor: pointer;
+}
+
+.todosContinentesStyles a {
+    text-decoration: none;
+    color: black;
 }
