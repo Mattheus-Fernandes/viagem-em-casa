@@ -2,7 +2,7 @@ const route = require("express").Router()
 const slugify = require("slugify")
 
 route.get("/continente/lugares/america", (req, res) => {
-    res.send("continentes/america")
+    res.render("continentes/lugares/americaLugares")
 })
 
 route.get('/continente/lugares/europa', (req, res) => {
