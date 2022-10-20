@@ -15,6 +15,7 @@
     justify-content: space-between;
     width: 400px;
     margin-bottom: 0;
+    padding-left: 0;
 }
 .header .navbar-header ul li {
     list-style: none;
@@ -24,6 +25,7 @@
     text-decoration: none;
     color: white;
 }
+
 
 .title {
     font-size: 25px;
@@ -199,9 +201,8 @@
 .continente {
     background-image: url(../images/continente.jpg);
     background-size: cover;
-    height: 89vh;
+    height: 94vh;
     width: 100%;
-
     display: flex;
     justify-content: space-between;
 }
@@ -221,7 +222,48 @@
 
 .americano {
     width: 65%;
-    margin-top: 30px;
+    margin-top: 100px;
     color: white;
+    text-align: center;
+    margin-right: 70px;
+}
 
+.americano .saudacao {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.americano .info-continente {
+    font-size: 24px;
+}
+
+.americano .select-pais {
+    display: block;
+    text-align: center;
+    width: 200px;
+}
+
+.form-pais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-pais label {
+    font-size: 20px;
+}
+
+.select-pais {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-pais button {
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+    border-radius: 10px;
 }
