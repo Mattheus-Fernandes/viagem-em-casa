@@ -270,4 +270,21 @@
 
 .container-continente {
     padding: 30px 100px;
+    position: relative;
+}
+
+.linkContinente {
+    position: absolute;
+    top: 40px;
+    right: 65px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.linkContinente:hover {
+    color: white;
 }
