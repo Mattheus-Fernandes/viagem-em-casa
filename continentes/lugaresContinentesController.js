@@ -6,15 +6,16 @@ route.get("/continente/lugares/america", (req, res) => {
 })
 
 route.get('/continente/lugares/europa', (req, res) => {
-    res.send("continentes/europa")
+    res.render("continentes/lugares/europaLugares")
 })
 
 route.get('/continente/lugares/africa', (req, res) => {
-    res.send("continentes/africa")
+    res.render("continentes/lugares/africaLugares")
 })
 
 route.get('/continente/lugares/asia', (req, res) => {
-    res.send("continentes/asia")
+    res.render("continentes/lugares/asiaLugares")
+
 })
 
 route.get('/continente/lugares/oceania', (req, res) => {
