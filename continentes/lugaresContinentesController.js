@@ -19,11 +19,11 @@ route.get('/continente/lugares/asia', (req, res) => {
 })
 
 route.get('/continente/lugares/oceania', (req, res) => {
-    res.send("continentes/oceania")
+    res.render("continentes/lugares/oceaniaLugares")
 })
 
 route.get('/continente/lugares/antartida', (req, res) => {
-    res.send("continentes/antartida")
+    res.render("continentes/lugares/antardidaLugares")
 })
 
 
