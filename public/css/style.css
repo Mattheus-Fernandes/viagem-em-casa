@@ -288,3 +288,30 @@
 .linkContinente:hover {
     color: white;
 }
+
+.pais {
+    padding: 10px 50px;
+}
+
+.pais .nome-pais {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pais .texto-pais {
+    margin-bottom: 100px;
+}
+
+.pais .info-pais {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.pais .gastronomia {
+    margin-bottom: 40px;
+}
+
+.pais .video-pais {
+    margin: 0 auto;
+}
